@@ -73,7 +73,7 @@ const Product = () => {
                     isSelected={tag == "FEATURED"}
                 />
             </div>
-            <ul ref={ref} className='row-span-3 grid md:grid-cols-3 md:gap-12 p-20 top-96'>
+            <ul ref={ref} className='row-span-3 grid md:grid-cols-3 gap-8 md:gap-12 p-20 top-96'>
                 {filteredProducts.map((product, index) => (
                     <motion.li
                         key={index}

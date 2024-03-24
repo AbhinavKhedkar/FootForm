@@ -30,7 +30,7 @@ const Customer = () => {
             </div>
 
             <div className="row-span-1 flex flex-row justify-center items-center gap-2 py-6">
-                <ul  className='row-span-3 grid md:grid-cols-3 md:gap-12 p-20 top-96'>
+                <ul  className='row-span-3 grid md:grid-cols-3 gap-8 md:gap-12 p-20 top-96'>
                     {customers.map((customer, index) => (
                         <CustomerCard
                             key={index}

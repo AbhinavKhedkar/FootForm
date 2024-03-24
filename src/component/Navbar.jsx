@@ -26,7 +26,7 @@ const Nav = () => {
                         alt='logo'
                         width={127}
                         height={127}
-                        className='m-0 w-32 h-32 z-10'
+                        className='m-0 w-24 h-24 sm:w-32 sm:h-32'
                     />
                 </a>
                 <div className='mobile-menu block md:hidden'>

@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <main>
-      <div className='bg-[#24221F] rotate-45 h-80 w-80 absolute left-0 transform -translate-x-1/2 -translate-y-1/2 z-20'>
+      <div className='bg-[#24221F] rotate-45 w-60 h-60 sm:h-80 sm:w-80 absolute left-0 transform -translate-x-1/2 -translate-y-1/2 z-20'>
       </div>
       <div className='relative z-30'>
         <Navbar />
